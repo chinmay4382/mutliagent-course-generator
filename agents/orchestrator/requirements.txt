@@ -1,0 +1,4 @@
+google-adk==1.22.*
+a2a-sdk==0.3.*
+fastapi==0.123.*
+uvicorn==0.40.0
