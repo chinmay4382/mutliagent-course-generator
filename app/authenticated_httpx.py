@@ -6,5 +6,5 @@ def create_authenticated_client(
         remote_service_url: str,
         timeout: float = DEFAULT_TIMEOUT
     ) -> httpx.AsyncClient:
-    """Plain client for local development (no GCP auth needed)."""
+    """Plain client for local development using Gemini API key (no GCP auth needed)."""
     return httpx.AsyncClient(follow_redirects=True, timeout=timeout)
