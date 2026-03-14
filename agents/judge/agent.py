@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def hello_world():
-    return {"message": "Hello, World! from Content Builder Agent"}
+    return {"message": "Hello, World! from judge Agent"}
